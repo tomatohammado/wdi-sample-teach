@@ -77,9 +77,9 @@ Now, what if we want to make ANOTHER person?
 
 ```js
 function Car (make, year) {
-  this.make: make,
-  this.year: year,
-  this.honkHorn: function () {
+  this.make = make,
+  this.year = year,
+  this.honkHorn = function () {
     alert('HOOOOOOONK!')
   }
 }
