@@ -14,7 +14,9 @@ So far, we've worked with variables, objects, and functions in Javascript.
 - **How do we define a variable to stores the value of your first name?**
 
 <details>
-<summary>Answer:</summary>
+<summary>
+Answer:
+</summary>
 
 ```js
 var num = 3
