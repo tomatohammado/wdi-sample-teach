@@ -13,12 +13,15 @@ So far, we've worked with variables, objects, and functions in Javascript.
 - **How do we define a variable to stores the value of the number 3?**
 - **How do we define a variable to stores the value of your first name?**
 
-Answer:
+<details>
+<summary>Answer:</summary>
 
 ```js
 var num = 3
 var firstName = 'Hammad'
 ```
+
+</details>
 
 We might have seen in earlier exercises that there are methods we can call on these variables.
 
@@ -62,12 +65,17 @@ What are some good properties for a car?
 
 ### How do we assign an object to a variable (literally \*hint hint\*)
 
+<details>
+<summary>Answer:</summary>
+
 ```js
 var carA = {
   make: 'Camry',
   year: 2010
 }
 ```
+
+</details>
 
 Now, what if we want to make ANOTHER person?
 
@@ -89,8 +97,18 @@ function Car (make, year) {
 
 ### We Do: Using the function
 
+
+<details>
+<summary>Answer:</summary>
+
 ```js
 var camry = new Car('camry', 2010)
 ```
 
+</details>
+
 let's make another car!
+
+<!-- moving the method out to the prototype -->
+
+<!-- You Do: Temperature Constructor -->
