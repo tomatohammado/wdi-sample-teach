@@ -46,7 +46,7 @@ In Javascript, there are objects that correspond to each of the basic data types
 
 Whenever we assign one of these values to a variable, as in the examples, these new values _inherit_ properties and methods from these Object Prototypes.
 
-_Prototypical Inheritance_ simply means that objects can pass properties to other objects. 
+_Prototypical Inheritance_ simply means that objects can pass properties to other objects.
 
 Question: why might this be useful?
 
@@ -87,7 +87,7 @@ Now, what if we want to make ANOTHER person?
 
 ## Constructor Functions
 
-### I Do: 'Car' Constructor Method
+### I Do (but follow along!): 'Car' Constructor Method
 
 ```js
 function Car (make, year) {
@@ -118,7 +118,6 @@ let's make another car!
 
 ## Improving the Constructor
 
-<!-- moving the method out to the prototype -->
 If we look closely at our new objects, we might see that the `honkHorn` method is duplicated each time.
 
 Bonus: how could we use Prototype methods to check if an object has it's own property, or if it is inheriting it from a constructor?
@@ -131,7 +130,7 @@ The Constructor method has a property called `.prototype` that allows us to add 
 /** new Car constructor */
 function Car (make, year) {
   this.make = make,
-  this.year = year,
+  this.year = year
 }
 
 Car.prototype.honkHorn = function () {
@@ -139,4 +138,23 @@ Car.prototype.honkHorn = function () {
 }
 ```
 
-<!-- You Do: Temperature Constructor -->
+There's a lot to unpack with this code change, let's make sure everyone understands what's happening before we start the You Do
+
+## You Do: Temperature Constructor
+
+### Prompt
+
+Make a Constructor function called Temperature.
+
+#### MVP
+
+1. Give the Constructor two properties:
+
+- a property to store the unit for the temperature (Fahrenheit, Celsius, Kelvin, go nuts!)
+- a property to store the value of the temperature
+
+2. Use the Constructor to create two unique Objects
+
+#### Bonus
+
+Give the constructor a method to convert the temperature from one measurement unit to another
