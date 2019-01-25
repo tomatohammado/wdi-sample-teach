@@ -26,6 +26,7 @@ var firstName = 'Hammad'
 </details>
 
 
+
 We might have seen in earlier exercises that there are methods we can call on these variables.
 
 ```js
@@ -80,6 +81,8 @@ var carA = {
 
 </details>
 
+
+
 Now, what if we want to make ANOTHER person?
 
 ## Constructor Functions
@@ -109,6 +112,8 @@ var camry = new Car('camry', 2010)
 ```
 
 </details>
+
+
 
 let's make another car!
 
