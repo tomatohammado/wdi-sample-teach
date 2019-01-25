@@ -77,12 +77,14 @@ What are some good properties for a car?
 
 <details>
   <summary>Answer:<br/><br/></summary>
+
   ```js
   var carA = {
     make: 'Camry',
     year: 2010
   }
   ```
+  
 </details>
 
 Now, what if we want to make ANOTHER person?
