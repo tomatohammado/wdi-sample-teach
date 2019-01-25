@@ -115,6 +115,12 @@ var camry = new Car('camry', 2010)
 
 Let's make some cars!
 
+## We do: Book Constructor
+
+As a class, let's make a constructor function for a Book and give it two properties, and create a book object.
+
+How do we start?
+
 ## Improving the Constructor
 
 If we look closely at our new objects, we might notice that the `honkHorn` method is duplicated in each object we create.
