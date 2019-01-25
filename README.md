@@ -48,10 +48,14 @@ Whenever we assign one of these values to a variable, as in the examples, these 
 
 _Prototypical Inheritance_ simply means that objects can pass properties to other objects.
 
+The Object Prototypes themselves inherit from the `Object Prototype` itself, and the diagram of how properties and methods are passed down from object to object is the _Prototypal Chain_.
+
+If we look for a property or method, Javascript will look at that object, and if it cannot find it then it will go up the Prototype Chain and search for it in the _Constructors_.
+
 Question: why might this be useful?
 
 <details>
-<summary>A few reasons:<br/></summary>
+<summary>A few reasons:<br/><br/></summary>
 
 - reuse methods and properties (DRY)
 - flexible: objects can add their own properties
@@ -59,11 +63,7 @@ Question: why might this be useful?
 
 </details>
 
-The Object Prototypes themselves inherit from the `Object Prototype` itself, and the diagram of how properties and methods are passed down from object to object is the _Prototypal Chain_.
-
-If we look for a property or method, Javascript will look at that object, and if it cannot find it then it will go up the Prototype Chain and search for it in the _Constructors_.
-
-We can use Prototypal Inheritance in our own custom objects, to!
+We can use Prototypal Inheritance in our own custom objects, too!
 
 ## We Do: Object Review
 
