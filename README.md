@@ -67,7 +67,7 @@ We can use Prototypal Inheritance in our own custom objects, too!
 
 ## We Do: Object Review
 
-[Sandbox Codepen](https://codepen.io/tomatohammado/pen/KJVpXy?editors=0010)
+[Sandbox Codepen](https://codepen.io/tomatohammado/pen/KJVpXy?editors=0010){:target="_blank"}
 
 Let's say we want to make a bunch of Objects to represent cars.
 
