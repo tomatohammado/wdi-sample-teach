@@ -14,7 +14,7 @@ So far, we've worked with variables, objects, and functions in Javascript.
 - **How do we define a variable to stores the value of your first name?**
 
 <details>
-<summary>Answer:<br/></summary>
+<summary>Answer:<br/><br/></summary>
 
 ```js
 var num = 3
@@ -74,7 +74,7 @@ What are some good properties for a car?
 ### How do we assign an object to a variable (literally \*hint hint\*)
 
 <details>
-  <summary>Answer:<br/></summary>
+  <summary>Answer:<br/><br/></summary>
   ```js
   var carA = {
     make: 'Camry',
@@ -104,7 +104,7 @@ function Car (make, year) {
 ### We Do: Using the Constructor
 
 <details>
-<summary>Answer:<br/></summary>
+<summary>Answer:<br/><br/></summary>
 
 ```js
 var camry = new Car('camry', 2010)
