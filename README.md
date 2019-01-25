@@ -3,7 +3,7 @@
 ## Learning Objectives
 
 - Define Prototypes and Inheritance
-- Describe how Constructors pass properties to new Objects
+- Describe how Constructors pass properties to new objects
 - Define a custom Constructor method that sets one or more properties of a new object
 
 ## Warm Up
@@ -48,7 +48,7 @@ Whenever we assign one of these values to a variable, as in the examples, these 
 
 _Prototypical Inheritance_ simply means that objects can pass properties to other objects.
 
-The Object Prototypes themselves inherit from the `Object Prototype` itself, and the diagram of how properties and methods are passed down from object to object is the _Prototypal Chain_.
+These Object Prototypes themselves inherit from the `Object Prototype` itself, and the diagram of how properties and methods are passed down from object to object is the _Prototypal Chain_.
 
 If we look for a property or method, Javascript will look at that object, and if it cannot find it then it will go up the Prototype Chain and search for it in the _Constructors_.
 
@@ -57,9 +57,9 @@ Question: why might this be useful?
 <details>
 <summary>A few reasons:<br/><br/></summary>
 
-- reuse methods and properties (DRY)
-- flexible: objects can add their own properties
-- organization
+- Reuse properties and methods (DRY)
+- Flexible: objects can add their own properties
+- Organization
 
 </details>
 
@@ -87,7 +87,7 @@ What are some good properties for a car?
 
 </details>
 
-Now, what if we want to make ANOTHER person?
+Now, what if we want to make ANOTHER car?
 
 ## Constructor Functions
 
@@ -118,13 +118,11 @@ var camry = new Car('camry', 2010)
 
 </details>
 
-
-
 let's make another car!
 
 ## Improving the Constructor
 
-If we look closely at our new objects, we might see that the `honkHorn` method is duplicated each time.
+If we look closely at our new objects, we might notice that the `honkHorn` method is duplicated in each object we create.
 
 Bonus: how could we use Prototype methods to check if an object has it's own property, or if it is inheriting it from a constructor?
 
