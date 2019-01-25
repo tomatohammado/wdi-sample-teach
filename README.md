@@ -80,7 +80,7 @@ function Car = (make, year) {
   this.make: make,
   this.year: year,
   this.honkHorn: function () {
-    alert('HOOOOOOONK!)
+    alert('HOOOOOOONK!')
   }
 }
 ```
