@@ -76,7 +76,7 @@ Now, what if we want to make ANOTHER person?
 ### I Do: 'Car' Constructor Method
 
 ```js
-function Car = (make, year) {
+function Car (make, year) {
   this.make: make,
   this.year: year,
   this.honkHorn: function () {
