@@ -70,16 +70,15 @@ What are some good properties for a car?
 ### How do we assign an object to a variable (literally \*hint hint\*)
 
 <details>
-<summary>Answer:</summary>
-
-```js
-var carA = {
-  make: 'Camry',
-  year: 2010
-}
-```
-
+  <summary>Answer:</summary>
+  ```js
+  var carA = {
+    make: 'Camry',
+    year: 2010
+  }
+  ```
 </details>
+
 
 
 
