@@ -26,10 +26,10 @@ var firstName = 'Hammad'
 We might have seen in earlier exercises that there are methods we can call on these variables.
 
 ```js
-console.log(num.toFixed(2))
+num.toFixed(2)
 // -> 3.00
 
-console.log(firstName.charAt(1))
+firstName.charAt(1)
 // -> 'a'
 ```
 
