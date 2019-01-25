@@ -84,7 +84,7 @@ What are some good properties for a car?
     year: 2010
   }
   ```
-  
+
 </details>
 
 Now, what if we want to make ANOTHER person?
@@ -106,6 +106,8 @@ function Car (make, year) {
 **Note**: by convention, we capitalize the first letter in Constructors.
 
 ### We Do: Using the Constructor
+
+How do we now use the Car Constructor to make a _new_ car object?
 
 <details>
 <summary>Answer:<br/><br/></summary>
