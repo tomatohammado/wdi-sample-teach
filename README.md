@@ -109,16 +109,11 @@ function Car (make, year) {
 
 How do we now use the Car Constructor to make a _new_ car object?
 
-<details>
-<summary>Answer:<br/><br/></summary>
-
 ```js
 var camry = new Car('camry', 2010)
 ```
 
-</details>
-
-let's make another car!
+Let's make some cars!
 
 ## Improving the Constructor
 
