@@ -25,6 +25,7 @@ var firstName = 'Hammad'
 
 </details>
 
+
 We might have seen in earlier exercises that there are methods we can call on these variables.
 
 ```js
