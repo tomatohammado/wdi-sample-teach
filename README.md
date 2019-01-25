@@ -132,9 +132,10 @@ The Constructor method has a property called `.prototype` that allows us to add 
 function Car (make, year) {
   this.make = make,
   this.year = year,
-  this.honkHorn = function () {
-    alert('HOOOOOOONK!')
-  }
+}
+
+Car.prototype.honkHorn = function () {
+  alert('HOOOOOOONK!')
 }
 ```
 
