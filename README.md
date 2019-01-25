@@ -4,7 +4,7 @@
 
 - Define Prototypes and Inheritance
 - Describe how Constructors pass properties to new Objects
-- Define a custom Constructor method that sets one or more `properties of a new object
+- Define a custom Constructor method that sets one or more properties of a new object
 
 ## Warm Up
 
